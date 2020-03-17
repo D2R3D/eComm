@@ -44,7 +44,7 @@ class Nav extends Component {
                     <p className='logged-in'> Profile </p>
 
             <div>
-             <button onClick={this.logout}> Logout </button>
+             <button className='logout-btn' onClick={this.logout}> Logout </button>
              </div>
 
                 </div>

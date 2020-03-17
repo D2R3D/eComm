@@ -29,3 +29,4 @@ massive(CONNECTION_STRING).then(db => {
 
 app.post('/api/user/login', authCtrl.login)
 app.post('/api/user/register', authCtrl.register)
+app.delete('/api/user/logout', authCtrl.logout)
