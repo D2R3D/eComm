@@ -4,8 +4,7 @@ import {withRouter, Link} from 'react-router-dom'
 import axios from 'axios'
 import {updateUser, logout} from '../../ducks/reducer'
 import './Nav.css'
-import Swal from 'sweetalert2';
-// import Swal from 'sweetalert2'
+
 
 class Nav extends Component {
     constructor(props) {

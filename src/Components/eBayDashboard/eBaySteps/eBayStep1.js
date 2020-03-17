@@ -4,7 +4,7 @@ export default class eBayStep1 extends Component {
     render() {
         return (
             <div>
-                
+                werewrwe
             </div>
         )
     }

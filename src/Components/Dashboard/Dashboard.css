@@ -11,6 +11,7 @@
     align-items: center;
     color: rgb(0, 0, 0);
     font-size: 20px;
+    transition: .5s;
 }
 
 .eBay-img{
@@ -25,6 +26,7 @@
     cursor: pointer;
     width: 325px;
     height: 275px;
+    transition: .5s;
 }
 
 
@@ -41,6 +43,7 @@
     align-items: center;
     color: rgb(0, 0, 0);
     font-size: 20px;
+    transition: .5s;
 }
 
 .amazon-img {
@@ -49,4 +52,11 @@
     border-radius: 10px;
     margin: 10px;
     border: 2px solid black;
+}
+
+.amazon-course:hover{
+    cursor: pointer;
+    transition:.5s;
+    width: 325px;
+    height: 275px;
 }
