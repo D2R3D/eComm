@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Dashboard.css";
-import eBayLogo from "../../assetts/eBay logo.jpg";
-import amazonLogo from "../../assetts/Amazon/amzLogo.png";
+import eBayLogo from "../../assets/eBay logo.jpg";
+import amazonLogo from "../../assets/Amazon/amzLogo.png";
 
 export default class Dashboard extends Component {
   render() {
