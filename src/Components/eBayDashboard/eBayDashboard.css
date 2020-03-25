@@ -1,7 +1,7 @@
 .eBay-dash {
     height: 100vh;
     width: 90vw;
-    background: rgb(0, 255, 170);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(104, 220, 255));
     display: flex;
     flex-direction: row;
 }
@@ -9,7 +9,7 @@
 .eBay-nav {
     height: 95vh;
     width: 60vw;
-    background: rgb(1, 139, 139);
+    background-image: radial-gradient(rgb(104, 220, 255), rgb(169, 186, 248));
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -17,17 +17,18 @@
 .eBay-nav > h1 {
     height: 40px;
     width: 60vw;
-    background: rgb(73, 164, 192);
+    background-image: radial-gradient(rgb(0, 225, 255), rgb(169, 186, 248));
     border-radius: 10px;
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
+    color: white;
 }
 
 .eBay-step-list {  
     height: 35vh;
     width: 58vw;
-    background: rgb(141, 250, 241);
+    background: rgb(201, 243, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -38,12 +39,15 @@
     color: pink;
 }
 .eBay-steps{
-    border: 1px solid black;
-    color: green;
+    border-bottom: 1px solid black;
+    color: rgb(61, 61, 61);
+    opacity: .7;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .eBay-steps:hover {
-    border-bottom: 2px solid black;
-    color: black;
+    color: rgb(0, 0, 0);
+    opacity: 1;
     
 }

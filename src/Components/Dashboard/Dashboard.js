@@ -2,16 +2,19 @@ import React, { Component } from "react";
 import "./Dashboard.css";
 import eBayLogo from "../../assets/eBay logo.jpg";
 import amazonLogo from "../../assets/Amazon/amzLogo.png";
-import{Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export default class Dashboard extends Component {
   render() {
     return (
-      <div>
-        <Link to ='/eBay'><div className="eBay-course">
-          <img className="eBay-img" src={eBayLogo} alt="eBay Course"></img>
-          <p> Click to get started on eBay </p>
-        </div></Link>
+        <div className='dash-nav'>
+      <div className="course-nav">
+        <Link to="/eBay">
+          <div className="eBay-course">
+            <img className="eBay-img" src={eBayLogo} alt="eBay Course"></img>
+            <p> Click to get started on eBay </p>
+          </div>
+        </Link>
 
         <div className="amazon-course">
           <img
@@ -25,6 +28,11 @@ export default class Dashboard extends Component {
         <div>
           <p> Future Courses</p>
         </div>
+      </div>
+      <div className ='goals'>
+          <p className ='success-story'> Enter a Success Story</p>
+      </div>
+
       </div>
     );
   }
