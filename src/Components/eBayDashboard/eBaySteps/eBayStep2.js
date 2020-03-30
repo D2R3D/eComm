@@ -9,7 +9,6 @@ export default class eBayStep2 extends Component {
 
         <Link to ='/eBay'><div className="eBay-course">
           <img className="eBay-img" src={eBayLogo} alt="eBay Course"></img>
-          <p> Click to get started on eBay </p>
         </div></Link>
 
         <div className ='eBay-nav'> 

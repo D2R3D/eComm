@@ -7,13 +7,14 @@ export default class eBayDashboard extends Component {
     render() {
         return (
             <div className = 'eBay-dash'>
-              
+              <div>
               <Link to ='/eBay'><div className="eBay-course">
           <img className="eBay-img" src={eBayLogo} alt="eBay Course"></img>
-          <p> Click to get started on eBay </p>
         </div></Link>
 
-
+            Now shall work
+             </div> 
+            
                  <div className ='eBay-nav'>
                      <h1> eBay Phase 1 Fundamentals</h1>
 
