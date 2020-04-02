@@ -13,6 +13,8 @@ export default class eBayStep2 extends Component {
 
         <div className ='eBay-nav'> 
                 <h1> eBay step 2: Sold Listings and Market Value</h1>
+
+                <h2>Introduction</h2>
              </div>
                 
             </div>

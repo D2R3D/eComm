@@ -34,13 +34,13 @@ class Nav extends Component {
 
                 <div className='logged-in'>
                    <Link to='/dashboard' style ={{textDecoration:'none'}}> 
-                   <p className='logged-in'> Dashboard </p> </Link> 
+                   <p className='dash-links'> Dashboard </p> </Link> 
 
-                   <Link to ='/tools' style={{textDecoration:'none'}}><p className='logged-in'> Tools</p></Link>
+                   <Link to ='/tools' style={{textDecoration:'none'}}><p className='dash-links'> Tools</p></Link>
 
-                    <p className='logged-in'> Contact </p>
+                    <p className='dash-links'> Contact </p>
 
-                    <p className='logged-in'> Profile </p>
+                    <p className='dash-links'> Profile </p>
 
             <div>
              <button className='logout-btn' onClick={this.logout}> Logout </button>

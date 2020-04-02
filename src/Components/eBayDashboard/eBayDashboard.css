@@ -1,38 +1,56 @@
 .eBay-dash {
-    height: 100vh;
+    min-height: 100vh;
     width: 90vw;
-    background-image: linear-gradient(rgb(220, 248, 255), rgb(124, 222, 255));
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(124, 222, 255));
     display: flex;
     flex-direction: row;
     border-radius: 10px;
+    overflow: scroll;
 }
 
 .eBay-nav {
     height: 95vh;
-    width: 60vw;
-    background-image: radial-gradient(rgb(104, 220, 255), rgb(169, 186, 248));
+    width: 50vw;
+    background-image: linear-gradient(rgb(227, 249, 255), rgb(88, 207, 236));
     border-radius: 10px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .eBay-nav > h1 {
     height: 40px;
-    width: 60vw;
+    width: 50vw;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(119, 149, 255));
     text-align: center;
     font-size: 30px;
     margin-top: 0px;
+    margin-bottom: 10px;
     color: white;
+}
+
+.back {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.eBay-nav >h2 {
+    font-size: 22px;
+    margin: 10px 20px;
+}
+.eBay-nav >p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.25;
 }
 
 .eBay-step-list {  
     height: 35vh;
-    width: 58vw;
+    width: 48vw;
     background: rgb(201, 243, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 15px;
     margin-top: 10px;
     border-radius: 10px;

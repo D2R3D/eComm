@@ -30,7 +30,9 @@ export default class Dashboard extends Component {
         </div>
       </div>
       <div className ='goals'>
-          <p className ='success-story'> Enter a Success Story</p>
+        <div className ='success-story'>
+          <p> Enter a Success Story</p>
+          </div>
       </div>
 
       </div>
