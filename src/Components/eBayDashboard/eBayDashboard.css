@@ -69,3 +69,28 @@
     opacity: 1;
     
 }
+
+.eBay-reg {
+    width: 40vw;
+    height: 20vh;
+}
+
+.eBay-reg:hover{
+    width:41vw;
+    height:21vh;
+}
+
+.eBay-create{
+    width: 45vw;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+.eBay-create:hover{
+    width:46vw;
+    height:41vh;
+}
+
+.links:hover{
+    font-size:20px;
+}

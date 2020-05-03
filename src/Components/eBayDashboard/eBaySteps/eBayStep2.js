@@ -6,10 +6,13 @@ export default class eBayStep2 extends Component {
     render() {
         return (
             <div className = 'eBay-dash'>
-
-        <Link to ='/eBay'><div className="eBay-course">
+              <div>
+              <Link to ='/eBay'><div className="eBay-course">
           <img className="eBay-img" src={eBayLogo} alt="eBay Course"></img>
         </div></Link>
+
+            Now shall work
+             </div> 
 
         <div className ='eBay-nav'> 
                 <h1> eBay step 2: Sold Listings and Market Value</h1>

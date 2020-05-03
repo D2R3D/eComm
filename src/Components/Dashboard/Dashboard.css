@@ -1,7 +1,7 @@
 .dash-nav{
     width: 80vw;
     height: 100vh;
-    background: rgb(194, 241, 247);
+    background: rgb(239, 253, 255);
     display: flex;
     flex-direction: row;
 
@@ -21,7 +21,7 @@
 .goals{
     width: 25vw;
     height: 25vh;
-    background: palegreen;
+    background: rgb(255, 198, 247);
 }
 
 .success-story{
@@ -31,10 +31,10 @@
 .eBay-course {
     width: 18vw;
     height: 250px;
-    background: rgb(104, 220, 255);
+    background: rgb(196, 251, 255);
     border: 1px solid black;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,8 +55,8 @@
 
 .eBay-course:hover{
     cursor: pointer;
-    width: 20vw;
-    height: 275px;
+    width: 19vw;
+    height: 265px;
     transition: .5s;
 }
 
