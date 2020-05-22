@@ -31,7 +31,29 @@ export default class Dashboard extends Component {
       </div>
       <div className ='goals'>
         <div className ='success-story'>
-          <p> Enter a Success Story</p>
+
+          <form id='success-form' action=''>
+            <h1>Add a Success Story</h1>
+            <p><input placeholder='Enter Dollar Amount'></input></p>
+            <div class='tab'>
+
+            </div>
+
+
+          </form>
+        <p> Enter a Success Story</p>
+          <select>
+            <option value='0'> Select Source </option>
+            <option value='1'> eBay </option>
+            <option value='2'> Amazon</option>
+            <option value='3'>Website</option>
+          </select>
+          <p> Enter Total Dollar amount </p>
+          <input placeholder='Gross dollar amount'></input>
+          <p>How have your mentors helped you through the process of making sales</p>
+
+          <button> Review and Submit </button>
+        
           </div>
       </div>
 
